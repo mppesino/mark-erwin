@@ -1,0 +1,28 @@
+
+.card{
+	width: 100%;
+	height: 100vh;	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	position: sticky;
+	top:0;
+
+
+}
+
+.card#card-1{
+	background: white;
+
+}
+
+.card#card-2{
+	background: white;
+	border-radius: 48px;
+	box-shadow: 0 20px 42px black;
+
+}
+
+#author-img{
+	max-width: 25%;
+}
