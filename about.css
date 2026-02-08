@@ -5,20 +5,32 @@
 #about h1{
     position: relative;
     text-align: left;
-    font-size: 64px;
+    font-size: 3.5vw;
     margin-right: 25%;
-    color: #F1A8CC;
+    margin-left: 20%;
+    color: #6a8dff;
+    mix-blend-mode: multiply;
+}
+
+.bio-header{
+    font-family: Roboto Mono;
+    font-style: bold;
+    font-weight: 650;
 }
 
 #about p{
-    font-size: 24px;
+    font-size: 1.4vw;
     margin-left: 25%;
     margin-right:10%;
+    margin-top: 10%;
+    color: #6F73E1;
+    line-height: 1.7vw;
+    
 }
 
 #author-img {
     width: 40vw;
-    max-width: none;
-    margin-top: -15%;
+    margin-top: -30%;
     z-index: -1;
+    margin-left: 25%;
 }
