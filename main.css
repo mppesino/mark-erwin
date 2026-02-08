@@ -25,8 +25,7 @@ body::before {
     opacity: 0.05; 
     z-index: 9999; 
     pointer-events: none;
-    
-    animation: grain-flicker 8s steps(10) infinite;
+
 }
 
 .card{

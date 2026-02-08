@@ -27,6 +27,10 @@
   	font-style: bold;
 }
 
+@keyframes spin{
+  from{translate: 0;}
+  to{translate: -100%;}
+}
 
 @keyframes fade-out {
   from { opacity: 1; }

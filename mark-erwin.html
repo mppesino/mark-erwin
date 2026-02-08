@@ -1,105 +1,314 @@
 <!DOCTYPE html>
 
 <html>
+
 	<head>
 		<title>Mark Erwin</title>
-		<link rel="stylesheet" href="about.css">
 		<link rel="stylesheet" href="utils.css">
 		<link rel="stylesheet" href="main.css">
-		<link rel="stylesheet" href="nav.css">
-		<link rel="stylesheet" href="banner.css">
+		<link rel="stylesheet" href="content.css">
+
 		<link rel="icon" href="assets/logo.ico" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 	</head>
 
-	<!--NAVIGATION BAR-->
+	<body>
+		<main>
 
-	
-	<main>
+			<div>
+				<div class="card" id="card1">
+					<nav class="navbar">
 
-		<div>
-			<div class="card" id="card1">
-				<nav class="navbar">
-
-					<div class="nav-logo">
-						<a href=""><img src="assets/logo-white.png"></a>
-					</div>
-					
-					<div class="nav-text">Software Dev in the Health Sector &lt;3</div>
-
-					<div class="nav-tab">
-						<a href="#about-head">About</a>
-						<a href="#experiences">Experiences</a>
-						<a href="#projects">Projects</a>
-						<a href="#contact">Contact</a>
-					</div>
+						<div class="nav-logo">
+							<a href=""><img src="assets/logo-white.png"></a>
+						</div>
 						
-				</nav>
+						<div class="nav-text">Software Dev in the Health Sector &lt;3</div>
 
-				<div class="banner-container unselectable">
-					<img src="assets/banner/1.png" class="banner-img">
-					<img src="assets/banner/3.png" class="banner-img float2" alt="MARK ERWIN">
-					<img src="assets/banner/4.png" class="banner-img float1">
-					<img src="assets/banner/2.png" class="banner-img float3">
+						<div class="nav-tab">
+							<a href="#about-head">About</a>
+							<a href="#experiences">Experiences</a>
+							<a href="#projects">Projects</a>
+							<a href="#contact">Contact</a>
+						</div>
+							
+					</nav>
+
+					<div class="banner-container unselectable">
+						<img src="assets/banner/1.png" class="banner-img">
+						<img src="assets/banner/3.png" class="banner-img float2" alt="MARK ERWIN">
+						<img src="assets/banner/4.png" class="banner-img float1">
+						<img src="assets/banner/2.png" class="banner-img float3">
+					</div>
 				</div>
+
+				<div class="card" id="card2">
+					<div class="flex-column">
+						<div class="flex-row" id="about">
+							<div class="flex-column" style="flex:1">
+								<h1 id="about-head">>/<br/>DEVELOPER,<br/>RESEARCHER,<br/>CREATIVE/</h1>
+								<img class="unselectable float3" id="author-img" src="assets/author-image.png" alt="Image of the author"/>
+							</div>
+							<div>
+								<p>
+									<span class="bio-header">(About Me)</span><br/><br/>
+									Hi there! I am a creative researcher and developer from the University of the Philippines - Los Baños,
+									<span class="bold">specializing in the intersection of computer science and public health.</span> I hailed from my second home, Qatar, and with my hands-on experience 
+									in programming, image processing, and tech research, I found my way back home in the Philippines driven by the 
+									mission to optimize healthcare delivery through health informatics. <br/><br/>I am pursuing a career where I can apply my 
+									software development and data skills to build <span class="bold">ICT solutions for the health sector.</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<h1 id="skills-head">MY SKILLSETS</h1>
+
+					<div aria-hidden class="carousel">
+						<div class="card-group">
+				
+
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>LANGUAGES</h2>
+								</div>
+								<ul>
+									<li>
+										Python
+									</li>
+									<li>
+										C, C#
+									</li>
+									
+									<li>
+										Java
+									</li>
+									<li>
+										HTML, CSS, JavaScript
+									</li>
+									<li>
+										Dart
+									</li>
+									<li>
+										R
+									</li>
+									<li>
+										Lua
+									</li>
+								</ul>
+							</div>
+
+							
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>COMPUTER VISION</h2>
+								</div>
+								<ul>
+									<li>
+										Data Gathering
+									</li>
+									<li>
+										Data Annotation
+									</li>
+									
+									<li>
+										Preprocessing
+									</li>
+									<li>
+										Optical Character Recognition 
+									</li>
+									<li>
+										YOLOv5
+									</li>
+								</ul>							
+							</div>
+
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>HEALTH INFORMATICS</h2>
+								</div>
+								<ul>
+									<li>
+										Hospital Workflow Digitization
+									</li>
+									<li>
+										Biometric Health Estimation
+									</li>
+									<li>
+										Data Privacy
+									</li>
+			
+								</ul>							
+							</div>
+
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>WEB PROGRAMMING</h2>
+								</div>
+								<ul>
+									<li>
+										Full-Stack Web Development
+									</li>
+									<li>
+										Web Design
+									</li>
+									<li>
+										Web Development Team Management
+									</li>
+			
+								</ul>							
+							</div>
+						</div>
+
+						<div class="card-group">
+				
+
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>LANGUAGES</h2>
+								</div>
+								<ul>
+									<li>
+										Python
+									</li>
+									<li>
+										C, C#
+									</li>
+									
+									<li>
+										Java
+									</li>
+									<li>
+										HTML, CSS, JavaScript
+									</li>
+									<li>
+										Dart
+									</li>
+									<li>
+										R
+									</li>
+									<li>
+										Lua
+									</li>
+								</ul>
+							</div>
+
+							
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>COMPUTER VISION</h2>
+								</div>
+								<ul>
+									<li>
+										Data Gathering
+									</li>
+									<li>
+										Data Annotation
+									</li>
+									
+									<li>
+										Preprocessing
+									</li>
+									<li>
+										Optical Character Recognition 
+									</li>
+									<li>
+										YOLOv5
+									</li>
+								</ul>							
+							</div>
+
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>HEALTH INFORMATICS</h2>
+								</div>
+								<ul>
+									<li>
+										Hospital Workflow Digitization
+									</li>
+									<li>
+										Biometric Health Estimation
+									</li>
+									<li>
+										Data Privacy
+									</li>
+			
+								</ul>							
+							</div>
+
+							<div class="small-card">
+								<div class="flex-row">
+									<h2>WEB PROGRAMMING</h2>
+								</div>
+								<ul>
+									<li>
+										Full-Stack Web Development
+									</li>
+									<li>
+										Web Design
+									</li>
+									<li>
+										Web Development Team Management
+									</li>
+			
+								</ul>							
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+											<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+
+																<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+
+					</div>
+
+
+				</div>
+
+
+
+
 			</div>
 
-			<div class="card" id="card2">
-				<div class="flex-column">
-					<div class="flex-row" id="about">
-						<div class="flex-column" style="flex:1">
-							<h1 id="about-head">>/<br/>DEVELOPER,<br/>RESEARCHER,<br/>CREATIVE/</h1>
-							<img class="unselectable float3" id="author-img" src="assets/author-image.png" alt="Image of the author"/>
-						</div>
-						<div>
-							<p>
-								<span class="bio-header">(About Me)</span><br/><br/>
-								Hi there! I am a creative researcher and developer from the University of the Philippines - Los Baños,
-								<span class="bold">specializing in the intersection of computer science and public health.</span> I hailed from my second home, Qatar, and with my hands-on experience 
-								in programming, image processing, and tech research, I found my way back home in the Philippines driven by the 
-								mission to optimize healthcare delivery through health informatics. <br/><br/>I am pursuing a career where I can apply my 
-								software development and data skills to build <span class="bold">ICT solutions for the health sector.</span>
-							</p>
-						</div>
-					</div>
 
-					<div>
-						<h1 id="experiences">Experiences</h1>
-						<p>
-							Award-winning student researcher at the University of the Philippines Los Baños, specializing in the intersection of machine learning and public health. Driven by the mission to optimize healthcare delivery through health informatics, I am seeking a career where I can apply my software development and data skills to build ICT solutions for the health sector.
-						</p>
-					</div>
+		</main>
 
-					<div>
-						<h1 id="skills">Skills</h1>
-						<p>
-							Award-winning student researcher at the University of the Philippines Los Baños, specializing in the intersection of machine learning and public health. Driven by the mission to optimize healthcare delivery through health informatics, I am seeking a career where I can apply my software development and data skills to build ICT solutions for the health sector.
-						</p>
-					</div>
+		<footer>
 
-					<div>
-						<h1 id="contact">Contact</h1>
-						<p>
-							Award-winning student researcher at the University of the Philippines Los Baños, specializing in the intersection of machine learning and public health. Driven by the mission to optimize healthcare delivery through health informatics, I am seeking a career where I can apply my software development and data skills to build ICT solutions for the health sector.
-						</p>
-					</div>
+			
+		</footer>
 
-
-				</div>
-			</div>
-		</div>
-
-
-	</main>
-
-	<footer>
-
-		
-	</footer>
-
+	</body>
 
 
 </html>
