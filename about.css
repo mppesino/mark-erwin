@@ -1,0 +1,24 @@
+#about{
+    padding: 2%;
+}
+
+#about h1{
+    position: relative;
+    text-align: left;
+    font-size: 64px;
+    margin-right: 25%;
+    color: #F1A8CC;
+}
+
+#about p{
+    font-size: 24px;
+    margin-left: 25%;
+    margin-right:10%;
+}
+
+#author-img {
+    width: 40vw;
+    max-width: none;
+    margin-top: -15%;
+    z-index: -1;
+}

@@ -5,3 +5,5 @@ https://www.w3schools.com/tags/tag_nav.asp
 https://www.youtube.com/watch?v=f3uCSh6LIY0
 
 https://www.youtube.com/watch?v=OY-TySdgXPY
+
+https://stackoverflow.com/questions/924916/is-there-a-way-to-make-a-div-unselectable
