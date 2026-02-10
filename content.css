@@ -115,6 +115,7 @@ transform: scale(1.15);
 }
 
 /* EXPERIENCES */
+
 #experiences-head{
     position: relative;
     text-align: left;
@@ -174,13 +175,13 @@ transform: scale(1.15);
     padding: 2vw;
     font-size: 150%;
     margin-bottom: 15vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
 
 }
 
 .small-card .flex-column {
     align-items: flex-start; 
-    text-align: left;        
+    text-align: left;
 }
 
 .blue-card{
@@ -350,7 +351,6 @@ hr.solid {
     padding-top: 2%;
     
 }
-
 
 .footer .flex-column{
     width: 100%;

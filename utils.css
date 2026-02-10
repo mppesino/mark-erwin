@@ -22,6 +22,10 @@
     -o-user-select: none;
 }
 
+.border{
+    border-style: solid;
+}
+
 .bold{
     font-weight: 650;
   	font-style: bold;
