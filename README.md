@@ -3,7 +3,7 @@
 
 ### Live Website link
 [](https://mppesino.github.io/mark-erwin/)
-(https://mppesino.github.io/mark-erwin/
+https://mppesino.github.io/mark-erwin/
 
 ### Steps on how to create GitHub page
 1. Change your repository visibility to public
