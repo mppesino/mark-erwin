@@ -7,7 +7,7 @@ https://mppesino.github.io/mark-erwin/
 
 ### Steps on how to create GitHub page
 1. Change your repository visibility to public
-2. Go to remote GitHub repository settings and allow pages
+2. Go to remote GitHub repository settings and set up pages
 
 ### Key Takeaways
 - HTML and CSS is actually quite difficult when it comes to making complex designs.
