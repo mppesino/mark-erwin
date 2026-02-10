@@ -12,6 +12,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 	</head>
 
 	<body>
@@ -30,8 +32,8 @@
 						<div class="nav-tab">
 							<a href="#about-head">About</a>
 							<a href="#experiences">Experiences</a>
-							<a href="#projects">Projects</a>
-							<a href="#contact">Contact</a>
+							<a href="#skills-head">Skills</a>
+							<a href="#footer">Contact</a>
 						</div>
 							
 					</nav>
@@ -63,233 +65,326 @@
 							</div>
 						</div>
 					</div>
+					<div class="flex-row" id="experiences">
+						<h1 id="experiences-head">EXP<br/> I'VE<br/> RANKED UP</h1>
+						<p>I developed innovative digital and AI-driven solutions to improve healthcare, environmental monitoring, and telehealth, all 
+							aimed at streamlining processes, enabling data-driven decisions, and applying technology to real-world problems.
+						</p>					
+					</div>
 
-					<h1 id="skills-head">MY SKILLSETS</h1>
-
-					<div aria-hidden class="carousel">
-						<div class="card-group">
-				
-
-							<div class="small-card">
+					<div class="small-card-container">
+						<div class="small-card blue-card">
+							<div class="flex-column">
 								<div class="flex-row">
-									<h2>LANGUAGES</h2>
+									<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/University_of_the_Philippines_seal_2017.png" class="company-logo">
+									
+									<span class="exp-title"><h2>University of the Philippines - Los Banos</h2>BS Computer Science<br/>(2024-2028)</span>
+
+
 								</div>
+
+
 								<ul>
 									<li>
-										Python
+										<span class="bold">Hospital Laboratory Exam Management System (2025)</span>
+										<ul>
+											<li>
+												Developed a full-stack management solution to digitize the lifecycle of laboratory requests, 
+												from patient intake and staff assignment to result tracking.
+											</li>
+										</ul>
 									</li>
+		
 									<li>
-										C, C#
+										<span class="bold">Pollution Mitigation Project Optimization Tool (2025)</span>
+										<ul>
+											<li>Programmed a GUI-based optimization tool using Python/Tkinter to perform predictive 
+												modeling on pollutant reduction, enabling the visualization of emission reduction scenarios.
+											</li>
+										</ul>
 									</li>
-									
-									<li>
-										Java
-									</li>
-									<li>
-										HTML, CSS, JavaScript
-									</li>
-									<li>
-										Dart
-									</li>
-									<li>
-										R
-									</li>
-									<li>
-										Lua
-									</li>
+
+
 								</ul>
-							</div>
-
-							
-							<div class="small-card">
-								<div class="flex-row">
-									<h2>COMPUTER VISION</h2>
-								</div>
-								<ul>
-									<li>
-										Data Gathering
-									</li>
-									<li>
-										Data Annotation
-									</li>
-									
-									<li>
-										Preprocessing
-									</li>
-									<li>
-										Optical Character Recognition 
-									</li>
-									<li>
-										YOLOv5
-									</li>
-								</ul>							
-							</div>
-
-							<div class="small-card">
-								<div class="flex-row">
-									<h2>HEALTH INFORMATICS</h2>
-								</div>
-								<ul>
-									<li>
-										Hospital Workflow Digitization
-									</li>
-									<li>
-										Biometric Health Estimation
-									</li>
-									<li>
-										Data Privacy
-									</li>
-			
-								</ul>							
-							</div>
-
-							<div class="small-card">
-								<div class="flex-row">
-									<h2>WEB PROGRAMMING</h2>
-								</div>
-								<ul>
-									<li>
-										Full-Stack Web Development
-									</li>
-									<li>
-										Web Design
-									</li>
-									<li>
-										Web Development Team Management
-									</li>
-			
-								</ul>							
 							</div>
 						</div>
 
-						<div class="card-group">
-				
-
-							<div class="small-card">
+						<div class="small-card blue-card">
+							<div class="flex-column">
 								<div class="flex-row">
-									<h2>LANGUAGES</h2>
+									<span class="exp-title"><h2>Hospital Laboratory Exam Management System</h2>CSMC 22</span>
 								</div>
+								<img src="assets/projects/hospital.png"/>
+							</div>
+						</div>
+
+						<div class="small-card blue-card">
+							<div class="flex-column">
+								<div class="flex-row">
+									<span class="exp-title"><h2>Pollution Mitigation Project Optimization Tool</h2>CSMC 150</span>
+								</div>
+								<img src="assets/projects/pollution.png"/>
+							</div>
+						</div>
+
+						<div class="small-card purple-card">
+							<div class="flex-column">
+								<div class="flex-row">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/UPOUlogo_updated.png" class="company-logo">
+									<span class="exp-title"><h2>University of the Philippines - Open University</h2>ICT Development Office Intern <br/> Best Presenter <br/> (Jun - Jul 2025) </span>
+								</div>
+
 								<ul>
+									<li>Developed a <span class="bold">FastAPI-based engine</span> for the institution’s Academic Information Management System 
+										that <span class="bold">automatically recognizes and parses data in student transcripts</span> via OCR and regular expressions.</li>
 									<li>
-										Python
+										Collaborated with developers and university staff to 
+										integrate the API into existing workflows, reducing manual data encoding.
 									</li>
 									<li>
-										C, C#
-									</li>
-									
-									<li>
-										Java
+										Conducted testing and debugging to ensure high accuracy in text recognition.
 									</li>
 									<li>
-										HTML, CSS, JavaScript
-									</li>
-									<li>
-										Dart
-									</li>
-									<li>
-										R
-									</li>
-									<li>
-										Lua
+										Documented API functionalities and usage guidelines for future maintenance and scalability.
 									</li>
 								</ul>
-							</div>
 
-							
-							<div class="small-card">
+							</div>
+						</div>
+
+
+						<div class="small-card blue-card">
+							<div class="flex-column">
 								<div class="flex-row">
-									<h2>COMPUTER VISION</h2>
+									<span class="exp-title"><h2>AIMS Transcript of Records Reader</h2>University of the Philippines Open University - ICTDO</span>
+								</div>
+								<img src="assets/projects/tor.png"/>
+							</div>
+						</div>
+
+						<div class="small-card pink-card">
+							<div class="flex-column">
+								<div class="flex-row">
+									<span class="exp-title"><h2>Others</h2>High School and Personal</span>
 								</div>
 								<ul>
 									<li>
-										Data Gathering
+										<span class="bold">Body Mass Index Recognition through Facial Landmarks Detection (2024)</span>
+										<ul>
+											<li>
+											Produced a telehealth screening tool using facial landmarks 
+											detection and image processing techniques to estimate BMI for health monitoring.
+											</li>
+										</ul>
 									</li>
+		
 									<li>
-										Data Annotation
-									</li>
-									
-									<li>
-										Preprocessing
-									</li>
-									<li>
-										Optical Character Recognition 
-									</li>
-									<li>
-										YOLOv5
-									</li>
-								</ul>							
-							</div>
+										<span class="bold">Real-Time Vehicle Smoke Violation Detection (2023-2024)</span>
+										<br/>
+										<span class="italic small">5th Place – Qatar Youth Science Forum | London International Youth Science Forum 2023 Delegate Best Research Paper & Presenter</span>
+										<ul>
+											<li>Implemented a Raspberry Pi-based YOLOv5 deep learning model to detect vehicles, 
+												recognize license plates, and estimate traffic-related carbon emissions in real-time.
 
-							<div class="small-card">
-								<div class="flex-row">
-									<h2>HEALTH INFORMATICS</h2>
-								</div>
-								<ul>
-									<li>
-										Hospital Workflow Digitization
+											</li>
+										</ul>
 									</li>
-									<li>
-										Biometric Health Estimation
-									</li>
-									<li>
-										Data Privacy
-									</li>
-			
-								</ul>							
-							</div>
 
-							<div class="small-card">
-								<div class="flex-row">
-									<h2>WEB PROGRAMMING</h2>
-								</div>
-								<ul>
-									<li>
-										Full-Stack Web Development
-									</li>
-									<li>
-										Web Design
-									</li>
-									<li>
-										Web Development Team Management
-									</li>
-			
-								</ul>							
+								</ul>
 							</div>
 						</div>
 					</div>
 
-					<div>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-											<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+					<h1 id="skills-head">MY SKILLSETS</h1>
 
-																<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
-						<p>LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUMIPSUMLOREM IPSUM</p>
+					<div aria-hidden class="carousel">
+						<div class="carousel-group">
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>LANGUAGES</h2>
+								</div>
+								<ul>
+									<li>
+										Python
+									</li>
+									<li>
+										C, C#
+									</li>
+									
+									<li>
+										Java
+									</li>
+									<li>
+										HTML, CSS, JavaScript
+									</li>
+									<li>
+										Dart
+									</li>
+									<li>
+										R
+									</li>
+									<li>
+										Lua
+									</li>
+								</ul>
+							</div>
 
+							
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>COMPUTER VISION</h2>
+								</div>
+								<ul>
+									<li>
+										Data Gathering
+									</li>
+									<li>
+										Data Annotation
+									</li>
+									
+									<li>
+										Preprocessing
+									</li>
+									<li>
+										Optical Character Recognition 
+									</li>
+									<li>
+										YOLOv5
+									</li>
+								</ul>							
+							</div>
+
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>HEALTH INFORMATICS</h2>
+								</div>
+								<ul>
+									<li>
+										Hospital Workflow Digitization
+									</li>
+									<li>
+										Biometric Health Estimation
+									</li>
+									<li>
+										Data Privacy
+									</li>
+			
+								</ul>							
+							</div>
+
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>WEB PROGRAMMING</h2>
+								</div>
+								<ul>
+									<li>
+										Full-Stack Web Development
+									</li>
+									<li>
+										Web Design
+									</li>
+									<li>
+										Web Development Team Management
+									</li>
+			
+								</ul>							
+							</div>
+						</div>
+
+						<div class="carousel-group">
+				
+
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>LANGUAGES</h2>
+								</div>
+								<ul>
+									<li>
+										Python
+									</li>
+									<li>
+										C, C#
+									</li>
+									
+									<li>
+										Java
+									</li>
+									<li>
+										HTML, CSS, JavaScript
+									</li>
+									<li>
+										Dart
+									</li>
+									<li>
+										R
+									</li>
+									<li>
+										Lua
+									</li>
+								</ul>
+							</div>
+
+							
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>COMPUTER VISION</h2>
+								</div>
+								<ul>
+									<li>
+										Data Gathering
+									</li>
+									<li>
+										Data Annotation
+									</li>
+									
+									<li>
+										Preprocessing
+									</li>
+									<li>
+										Optical Character Recognition 
+									</li>
+									<li>
+										YOLOv5
+									</li>
+								</ul>							
+							</div>
+
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>HEALTH INFORMATICS</h2>
+								</div>
+								<ul>
+									<li>
+										Hospital Workflow Digitization
+									</li>
+									<li>
+										Biometric Health Estimation
+									</li>
+									<li>
+										Data Privacy
+									</li>
+			
+								</ul>							
+							</div>
+
+							<div class="carousel-card">
+								<div class="flex-row">
+									<h2>WEB PROGRAMMING</h2>
+								</div>
+								<ul>
+									<li>
+										Full-Stack Web Development
+									</li>
+									<li>
+										Web Design
+									</li>
+									<li>
+										Web Development Team Management
+									</li>
+			
+								</ul>							
+							</div>
+						</div>
 					</div>
 
 
@@ -303,9 +398,34 @@
 
 		</main>
 
-		<footer>
-
-			
+		<footer class="footer" id="footer">
+			<div class="flex-column">
+				<h2>Menu</h2>
+				<hr class="solid">
+				<a href="#about-head">About</a>
+				<a href="#experiences">Experiences</a>
+				<a href="#skills-head">Skills</a>
+				<span class="author-tag bold">©2026<br/>MARKERWIN</span>
+			</div>
+			<div class="flex-column">
+				<h2>Socials</h2>
+				<hr class="solid">
+				<a href="https://github.com/mppesino">	<i class="fa-brands fa-github fa-lg"></i>&nbsp;&nbsp;GitHub</a>
+				<a href="https://www.instagram.com/kiemuuu/"><i class="fa-brands fa-instagram fa-lg"></i>&nbsp;&nbsp;Instagram</a>
+				<a href="https://www.linkedin.com/in/mark-erwin-pesino-51360a2b8/"><i class="fa-brands fa-linkedin fa-lg"></i>&nbsp;&nbsp;LinkedIn</a>
+			</div>
+			<div class="flex-column">
+				<h2>Contact</h2>
+				<hr class="solid">
+				<ul>
+					<li>
+					mppesino@up.edu.ph
+					</li>
+					<li>
+					+63 9637520433
+					</li>
+				</ul>
+			</div>
 		</footer>
 
 	</body>
