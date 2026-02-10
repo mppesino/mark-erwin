@@ -169,7 +169,7 @@ transform: scale(1.15);
     top: 8vh;
     background-color: #7B7BE0;
     width: 50%;
-    height: 75vh;
+    height: clamp(50vh, 75vh, 75vh);    
     margin: 0 auto;
     border-radius: 42px;
     padding: 2vw;
@@ -257,7 +257,7 @@ transform: scale(1.15);
     width: 26vw;
     max-width: 420px;
 
-    height: 50vh;
+    height: 75%;
     padding: 2em;
     border-radius: 42px;
     box-shadow: 0 25px 42px rgba(0,0,0,0.15);
