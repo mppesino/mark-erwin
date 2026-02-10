@@ -237,10 +237,9 @@ transform: scale(1.15);
 
 .carousel {
     margin: 5vh auto;
-    width: 90%;
+    width: 100%;
     display: flex;
     overflow-x: hidden;
-    overflow: visible;
     margin-bottom: 15%;
 }
 
