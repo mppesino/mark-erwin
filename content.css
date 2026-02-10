@@ -239,7 +239,7 @@ transform: scale(1.15);
     margin: 5vh auto;
     width: 90%;
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow: visible;
     margin-bottom: 15%;
 }
