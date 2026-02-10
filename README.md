@@ -16,26 +16,18 @@ https://mppesino.github.io/mark-erwin/
 
 ### References
 
-- Icon for the website tab
-  - https://stackoverflow.com/questions/6121725/favicon-ico-or-png-correct-tags
+- Icon for the website tab: https://stackoverflow.com/questions/6121725/favicon-ico-or-png-correct-tags
 
-- Nav tag
-  - https://www.w3schools.com/tags/tag_nav.asp
+- Nav tag: https://www.w3schools.com/tags/tag_nav.asp
 
-- CSS navigation bar
-  - https://www.youtube.com/watch?v=f3uCSh6LIY0
+- CSS navigation bar: https://www.youtube.com/watch?v=f3uCSh6LIY0
 
-- Stacking Cards Scrolling Effect
-  - https://www.youtube.com/watch?v=OY-TySdgXPY
+- Stacking Cards Scrolling Effect: https://www.youtube.com/watch?v=OY-TySdgXPY
 
-- Make element unselectable
-  - https://stackoverflow.com/questions/924916/is-there-a-way-to-make-a-div-unselectable
+- Make element unselectable: https://stackoverflow.com/questions/924916/is-there-a-way-to-make-a-div-unselectable
 
-- Infinite Carousel Effect
-  - https://www.youtube.com/watch?v=KD1Yo8a_Qis&t
+- Infinite Carousel Effect: https://www.youtube.com/watch?v=KD1Yo8a_Qis&t
 
-- CSS Dividers
-  - https://www.w3schools.com/howto/howto_css_dividers.asp
+- CSS Dividers: https://www.w3schools.com/howto/howto_css_dividers.asp
 
-- FontAwesome Icons
-  - https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+- FontAwesome Icons: https://www.w3schools.com/icons/fontawesome_icons_intro.asp
