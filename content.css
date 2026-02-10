@@ -186,25 +186,25 @@ transform: scale(1.15);
 .blue-card{
     color: rgb(55, 53, 116);
     background-color: rgb(165, 164, 255);
-    box-shadow: 0 0 15px rgb(165, 164, 255);
+    box-shadow: 0 0 15px rgba(64, 63, 121, 0.295);
 }
 
 .purple-card{
     color: rgb(76, 38, 107);
     background-color: rgb(214, 164, 255);
-    box-shadow: 0 0 15px rgb(214, 164, 255);
+    box-shadow: 0 0 15px rgba(121, 82, 153, 0.384);
 }
 
 .pink-card{
     color: rgb(88, 24, 80);
     background-color: rgb(255, 164, 243);
-    box-shadow: 0 0 15px  rgb(255, 164, 243);
+    box-shadow: 0 0 15px  rgba(136, 71, 127, 0.432);
 }
 
 .peach-card{
     color: #5e192e;
     background-color: #ffa4bf;
-    box-shadow:  0 0 15px  #ffa4bf;
+    box-shadow:  0 0 15px  #753b4d6e;
 }
 
 .small-card li{
